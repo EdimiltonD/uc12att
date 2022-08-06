@@ -1,4 +1,5 @@
 <doctype html>
+    <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE-Edge">
@@ -16,19 +17,16 @@
     </head>
     <body style="background-color: rgb(209, 205, 205);">
         <header>
-            <div class="cabecalho">
-                <a href="index.html">
-                <img class="logo" src="fotos/logo.png" alt="Logotipo do site gamer" width="140px">
-            </a>
-                <nav id="menu" class="menu menu-ativo"></nav>
-                <a href="#" target="_blank">Inicio</a>
-                <a href="login.html" target="_blank">Login</a>
-                <a href="#" target="_blank">Carrinho</a>
-                <a href="#" target="_blank">Ultimas ofertas</a>
-                <a href="#" target="_blank">Ajuda</a>
-                <!-- <a href="#" id="barras" onclick="mostraMenu()"><img class="icone-menu" src=barrinha.png" alt="icone do menu de barras"></a>-->
-                <a href="#" id="barras">
-                 <img class="icone-menu" src="fotos/barrinha.png" alt=" Icone de barra de auxilio" width="35px">
+            
+            <div class="container1">    
+                <div class="logo"></div><img src="fotos/logo.png" width="5%">
+                <div class="menu">
+                <a href="#">Inicio</a>
+                <a href="login.html">Login</a>
+                <a href="#">Carrinho</a>
+                <a href="#">Ultimas ofertas</a>
+                <a href="#">Ajuda</a>
+            </div>
                 </a>
 
 
@@ -40,9 +38,10 @@
             </div><!--center-->
         </header>
         <main>
+            <div class=" banner"></div>
             <img src="fotos/banner1.jpeg" alt="banner com jogos" width="1366"></section>
             <section class="jogos">
-                <div class="container de jogos">
+                <div class="container2 posicionamento-jogos">
                 <img src="fotos/cf.png" alt="Logotipo Crossfire" width="200px">
                 <img src="fotos/cs.png" alt="Logotipo CounterStrike" width="200px">
                 <img src="fotos/call.png" alt="Logotipo Warzone" width="200px">
@@ -51,39 +50,31 @@
             </section>
             <section>
                 <div class="container">
-                    <h2>Ultimas ofertas</h2>
-                    <div class="espaco-produtos"></div>
-                    <div class="cardnews"></div>
-                    <img src="fotos/fable.png" alt="Foto do jogo vendido">
+                    <section class="cardnews"></section>
                         <div class="texto-card">
+                            <img src="fotos/fable.png" alt="Foto do jogo vendido">
                             <h3>Fable 2.0</h3>
-                            <p>Fable é uma série de jogos de RPG de ação para plataformas Xbox, Microsoft Windows, macOS, Xbox 360 e Xbox One.</p>
-                            <p class="Preço">R$199</p>
-                            <a href="#">Comprar</a>
+                            <span>Fable é uma série de jogos de RPG de ação</span>
+                            <button href="#">Comprar</button>
                         </div>
-                    <div class="cardnews"></div>
-                    <img src="fotos/fable.png" alt="Foto do jogo vendido">
+                    <section class="cardnews"></section>
                         <div class="texto-card">
+                            <img src="fotos/fable.png" alt="Foto do jogo vendido">
                             <h3>Fable 2.0</h3>
-                            <p>Fable é uma série de jogos de RPG de ação para plataformas Xbox, Microsoft Windows, macOS, Xbox 360 e Xbox One.</p>
+                            <p>Fable é uma série de jogos de RPG de ação</p>
                             <p class="Preço">R$199</p>
-                            <a href="#">Comprar</a>
+                            <button href="#">Comprar</button>
                         </div>
-                    <div class="cardnews"></div>
-                    <img src="fotos/fable.png" alt="Foto do jogo vendido">
+                    <section class="cardnews"></section>
                         <div class="texto-card">
+                            <img src="fotos/fable.png" alt="Foto do jogo vendido">
                             <h3>Fable 2.0</h3>
-                            <p>Fable é uma série de jogos de RPG de ação para plataformas Xbox, Microsoft Windows, macOS, Xbox 360 e Xbox One.</p>
+                            <p>Fable é uma série de jogos de RPG de ação</p>
                             <p class="Preço">R$199</p>
-                            <a href="#">Comprar</a>
+                            <button href="#">Comprar</button>
+
                         </div>
-                    <div class="cardnews"></div>
-                    <img src="fotos/fable.png" alt="Foto do jogo vendido">
-                        <div class="texto-card">
-                            <h3>Fable 2.0</h3>
-                            <p>Fable é uma série de jogos de RPG de ação para plataformas Xbox, Microsoft Windows, macOS, Xbox 360 e Xbox One.</p>
-                            <p class="Preço">R$199</p>
-                            <a href="#">Comprar</a>
+                    
                         </div>
                     </div>
                 </div>
@@ -91,7 +82,7 @@
             </section>
         </main>
         <footer>
-            <div class="Rodape"></div>
+            <div class="Rodape">
             <img class="roda-pe" src="fotos/logo.png" alt="Logo Site gamer" width="114px">
             <div class="Sociais">
                 <p>Faca parte da nossa familia que recebe promocoes exclusivas semanalmente!</p>
@@ -99,10 +90,10 @@
                     <input id="campo-email" type="email" placeholder="E-mail" required>
                     <button onclick="CadastrarNewsLetter"()">Cadastrar</button>"
                 </form>
-                <div class="Siga-nos">
+                <div class="Siga">
                     <h2>Siga-nos em:</h2>
                     <a href="#">
-                    <img src="fotos/insta.webp" alt="logo do instagram" width="30px">
+                    <img src="fotos/insta.webp" alt="logo do instagram" width="30px" >
                     </a>
                     <a href="#">
                     <img src="fotos/face.png" alt="logo do facebook" width="30px">
